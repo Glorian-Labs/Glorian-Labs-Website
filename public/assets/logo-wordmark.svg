@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-label="Glorian Labs wordmark">
+  <defs>
+    <linearGradient id="glorian-wordmark-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+    <filter id="soft-glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="220" fill="none" />
+  <g transform="translate(28 34)">
+    <circle cx="76" cy="76" r="58" fill="none" stroke="url(#glorian-wordmark-gradient)" stroke-width="7" />
+    <path
+      d="M40 56c3-13 14-22 34-22 14 0 23 4 35 15M102 96c-4 14-14 22-33 22-19 0-32-9-37-25"
+      fill="none"
+      stroke="url(#glorian-wordmark-gradient)"
+      stroke-width="7"
+      stroke-linecap="round"
+    />
+    <path
+      d="M78 76h30M72 50l26 26-26 26"
+      fill="none"
+      stroke="url(#glorian-wordmark-gradient)"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+  <text
+    x="180"
+    y="104"
+    fill="url(#glorian-wordmark-gradient)"
+    font-family="Orbitron, Rajdhani, Inter, Arial, sans-serif"
+    font-size="72"
+    font-weight="700"
+    letter-spacing="8"
+    filter="url(#soft-glow)"
+  >
+    GLORIAN
+  </text>
+  <text
+    x="182"
+    y="162"
+    fill="#E5E7EB"
+    font-family="Inter, Arial, sans-serif"
+    font-size="38"
+    font-weight="600"
+    letter-spacing="6"
+  >
+    LABS
+  </text>
+</svg>

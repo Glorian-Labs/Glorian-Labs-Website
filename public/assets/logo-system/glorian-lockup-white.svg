@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-label="Glorian Labs horizontal lockup monochrome white">
+  <g transform="translate(14 34)">
+    <g fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M174 56A68 68 0 1 0 174 126" />
+      <path d="M98 92H150" stroke-width="20" />
+    </g>
+  </g>
+
+  <text
+    x="220"
+    y="146"
+    font-family="Orbitron, Rajdhani, Inter, Arial, sans-serif"
+    font-size="128"
+    font-weight="700"
+    letter-spacing="6"
+    fill="#FFFFFF"
+  >
+    GLORIAN
+  </text>
+
+  <text
+    x="642"
+    y="198"
+    font-family="Inter, Arial, sans-serif"
+    font-size="68"
+    font-weight="600"
+    letter-spacing="1.2"
+    fill="#FFFFFF"
+  >
+    Labs
+  </text>
+</svg>

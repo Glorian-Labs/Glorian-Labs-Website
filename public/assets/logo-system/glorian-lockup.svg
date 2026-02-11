@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-label="Glorian Labs horizontal lockup logo">
+  <defs>
+    <linearGradient id="glorian-gradient-lockup" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="260">
+      <stop offset="0%" stop-color="#00D4FF" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(14 34)">
+    <g fill="none" stroke="url(#glorian-gradient-lockup)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M174 56A68 68 0 1 0 174 126" />
+      <path d="M98 92H150" stroke-width="20" />
+    </g>
+  </g>
+
+  <text
+    x="220"
+    y="146"
+    font-family="Orbitron, Rajdhani, Inter, Arial, sans-serif"
+    font-size="128"
+    font-weight="700"
+    letter-spacing="6"
+    fill="url(#glorian-gradient-lockup)"
+  >
+    GLORIAN
+  </text>
+
+  <text
+    x="642"
+    y="198"
+    font-family="Inter, Arial, sans-serif"
+    font-size="68"
+    font-weight="600"
+    letter-spacing="1.2"
+    fill="#E5E7EB"
+  >
+    Labs
+  </text>
+</svg>

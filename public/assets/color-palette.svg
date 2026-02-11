@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Glorian Labs color palette">
+  <rect width="1200" height="700" fill="#0A0A0A" />
+  <text x="70" y="85" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700">
+    Glorian Labs Brand Palette
+  </text>
+  <text x="70" y="130" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="26">
+    Electric cyan + violet accents over dark charcoal foundations
+  </text>
+
+  <g transform="translate(70 190)">
+    <rect width="230" height="230" rx="24" fill="#00D4FF" />
+    <text x="0" y="270" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">
+      Electric Cyan
+    </text>
+    <text x="0" y="305" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="20">#00D4FF</text>
+  </g>
+
+  <g transform="translate(355 190)">
+    <rect width="230" height="230" rx="24" fill="#A78BFA" />
+    <text x="0" y="270" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">
+      Deep Violet
+    </text>
+    <text x="0" y="305" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="20">#A78BFA</text>
+  </g>
+
+  <g transform="translate(640 190)">
+    <rect width="230" height="230" rx="24" fill="#0A0A0A" stroke="#1F2937" />
+    <text x="0" y="270" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">
+      Background 1
+    </text>
+    <text x="0" y="305" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="20">#0A0A0A</text>
+  </g>
+
+  <g transform="translate(925 190)">
+    <rect width="230" height="230" rx="24" fill="#111111" stroke="#1F2937" />
+    <text x="0" y="270" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">
+      Background 2
+    </text>
+    <text x="0" y="305" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="20">#111111</text>
+  </g>
+
+  <g transform="translate(70 510)">
+    <rect width="230" height="120" rx="20" fill="#E5E7EB" />
+    <text x="250" y="558" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">
+      Body Text
+    </text>
+    <text x="250" y="593" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="20">#E5E7EB</text>
+  </g>
+
+  <g transform="translate(640 510)">
+    <rect width="230" height="120" rx="20" fill="#4B5563" />
+    <text x="250" y="558" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">
+      Neutral Cool Gray
+    </text>
+    <text x="250" y="593" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="20">#4B5563</text>
+  </g>
+</svg>

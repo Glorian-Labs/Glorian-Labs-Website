@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Glorian Labs Open Graph image">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#111111" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-grad)" />
+  <circle cx="920" cy="160" r="140" fill="#00D4FF" fill-opacity="0.2" />
+  <circle cx="1030" cy="290" r="170" fill="#A78BFA" fill-opacity="0.2" />
+  <g transform="translate(870 340)">
+    <circle cx="0" cy="0" r="84" fill="none" stroke="url(#accent-grad)" stroke-width="8" />
+    <path
+      d="M-50 -30c6-22 23-35 49-35 20 0 34 7 50 23M40 35c-7 20-23 32-47 32-27 0-46-14-55-37"
+      fill="none"
+      stroke="url(#accent-grad)"
+      stroke-width="8"
+      stroke-linecap="round"
+    />
+    <path
+      d="M8 0h44M0 -38l38 38-38 38"
+      fill="none"
+      stroke="url(#accent-grad)"
+      stroke-width="8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+  <text x="90" y="260" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700">
+    Glorian Labs
+  </text>
+  <text x="90" y="330" fill="#A78BFA" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600">
+    Agentic Intelligence for the Next Economy
+  </text>
+  <text x="90" y="395" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="28">
+    Autonomous AI systems and tools for decentralized intelligence
+  </text>
+  <rect x="90" y="450" width="420" height="62" rx="31" fill="url(#accent-grad)" />
+  <text x="122" y="490" fill="#0A0A0A" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="700">
+    Hedera " Aptos " Agentic Systems
+  </text>
+</svg>

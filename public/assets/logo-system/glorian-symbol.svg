@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Glorian Labs symbol-only logo">
+  <defs>
+    <linearGradient id="glorian-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="256" y2="256">
+      <stop offset="0%" stop-color="#00D4FF" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke="url(#glorian-gradient)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M187 88A84 84 0 1 0 187 168" />
+    <path d="M92 128H182" stroke-width="22" />
+  </g>
+</svg>
