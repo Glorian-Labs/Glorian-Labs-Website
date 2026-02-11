@@ -3,7 +3,7 @@
 ## Variants
 
 - `glorian-symbol.svg` (1:1)  
-  Symbol-only mark with neural-node loop `G`, optimized for favicon/app icon.
+  Symbol-only mark (power-button style), optimized for favicon/app icon.
 - `glorian-lockup.svg` (3:1)  
   Primary gradient lockup for dark UI.
 - `glorian-lockup-white.svg` (3:1)  
@@ -12,6 +12,8 @@
   Monochrome black lockup for light backgrounds.
 - `social-card-1200x630.svg` (1200x630)  
   Open Graph / Twitter social sharing card.
+- `color-palette.svg`  
+  Brand palette reference (colors, typography).
 
 ## Palette
 

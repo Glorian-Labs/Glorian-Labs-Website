@@ -1,30 +1,13 @@
 # Glorian Labs
 
-Agentic Intelligence for the Next Economy
+**Agentic Intelligence for the Next Economy**
 
-Modern landing page for Glorian Labs — an AI agentic economy lab focused on autonomous systems and decentralized intelligence.
-
-## Brand Assets
-
-- Wordmark: `public/assets/logo-system/glorian-lockup.svg`
-- Symbol: `public/assets/logo-system/glorian-symbol.svg`
-- Monochrome white: `public/assets/logo-system/glorian-lockup-white.svg`
-- Monochrome black: `public/assets/logo-system/glorian-lockup-black.svg`
-- Favicon source: `public/assets/logo-system/glorian-symbol.svg`
-- Social card (SVG): `public/assets/logo-system/social-card-1200x630.svg`
-- Social card (PNG): `public/assets/logo-system/social-card-1200x630.png`
-- Color palette reference: `public/assets/color-palette.svg`
-
-Recommended platform assets:
-- GitHub org logo / LinkedIn profile logo: `public/assets/logo-system/glorian-symbol-512.png`
-- GitHub README / website header: `public/assets/logo-system/glorian-lockup.svg`
-- Social sharing image (Open Graph / LinkedIn / X): `public/assets/logo-system/social-card-1200x630.png`
+Landing site for Glorian Labs — an agentic research lab building autonomous AI systems and tools for the next economic paradigm. Projects on Hedera, Aptos, and beyond.
 
 ## Stack
 
-- React + Vite + TypeScript
-- Tailwind CSS + PostCSS + Autoprefixer
-- Framer Motion
+- React 19 + Vite + TypeScript
+- Tailwind CSS + Framer Motion
 - React Router
 
 ## Development
@@ -34,42 +17,37 @@ npm install
 npm run dev
 ```
 
-## Build
+## Build & Deploy
 
 ```bash
 npm run build
+npm run preview   # local preview
 ```
 
-## Preview Production Build
+Deploy to Vercel: connect repo, build command `npm run build`, output directory `dist`.
 
-```bash
-npm run preview
-```
+## Brand Assets
 
-## SEO + Deploy
+All assets live in `public/assets/logo-system/`:
 
-- Vercel config: `vercel.json`
-- Robots: `public/robots.txt`
-- Sitemap: `public/sitemap.xml`
-- Meta and social tags: `index.html`
+| Asset | Use |
+|-------|-----|
+| `glorian-symbol.svg` | Favicon, app icon |
+| `glorian-lockup.svg` | Header, GitHub README |
+| `glorian-lockup-white.svg` | Dark backgrounds |
+| `glorian-lockup-black.svg` | Light backgrounds |
+| `social-card-1200x630.png` | Open Graph, Twitter, LinkedIn |
+| `glorian-symbol-512.png` | GitHub org, LinkedIn profile |
+| `color-palette.svg` | Brand palette reference |
 
-## Push to GitHub Organization
+Colors: Electric cyan `#00D4FF` · Violet `#A78BFA` · Dark `#0A0A0A`
 
-```bash
-git add .
-git commit -m "Initial commit: Glorian Labs landing site"
-git branch -M main
-git remote add origin https://github.com/<org>/<repo>.git
-git push -u origin main
-```
+## SEO & Config
 
-## GitHub Org README Snippet
+- `vercel.json` — Vercel routing
+- `public/robots.txt` · `public/sitemap.xml`
+- Meta + social tags in `index.html`
 
-```md
-![Glorian Labs](https://glorianlabs.com/assets/logo-system/glorian-lockup.svg)
+## License
 
-**Agentic Intelligence for the Next Economy**
-
-Building autonomous AI systems and tools for the next economic paradigm.
-Projects on Hedera, Aptos, and beyond.
-```
+Proprietary — Glorian Labs Ltd
