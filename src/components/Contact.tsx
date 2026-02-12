@@ -4,13 +4,13 @@ export function Contact() {
   return (
     <motion.section
       id="contact"
-      className="px-6 py-20 sm:px-10"
+      className="bg-brand-bg-start px-6 py-20 sm:px-10"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
-      <div className="mx-auto w-full max-w-6xl rounded-3xl border border-brand-purple/40 bg-gradient-to-br from-brand-purple/20 to-black/50 p-8 shadow-glow backdrop-blur-md sm:p-10">
+      <div className="mx-auto w-full max-w-6xl rounded-2xl border border-zinc-700/60 bg-white/5 p-6 shadow-panel-glow backdrop-blur-md sm:p-10">
         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-electric-blue">
           Contact
         </p>

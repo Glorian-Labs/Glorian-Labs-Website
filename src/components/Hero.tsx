@@ -20,7 +20,7 @@ export function Hero({ onExploreProjects }: HeroProps) {
       </div>
 
       <div className="mx-auto flex w-full max-w-6xl flex-col items-start gap-8">
-        <h1 className="font-display text-5xl font-bold leading-tight text-zinc-50 sm:text-6xl md:text-7xl lg:text-8xl">
+        <h1 className="font-display text-5xl font-bold leading-tight bg-brand-gradient bg-clip-text text-transparent sm:text-6xl md:text-7xl lg:text-8xl">
           Glorian Labs
         </h1>
 
@@ -37,9 +37,14 @@ export function Hero({ onExploreProjects }: HeroProps) {
           Explore Projects
         </button>
 
-        <p className="rounded-full border border-zinc-700/80 bg-zinc-900/50 px-4 py-2 text-xs font-medium uppercase tracking-[0.16em] text-zinc-300">
-          Agentic Research Lab | Decentralized Autonomous Systems
-        </p>
+        <div className="flex flex-wrap gap-3">
+          <span className="rounded-full border border-brand-purple/50 bg-black/30 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-purple">
+            Agentic Research Lab
+          </span>
+          <span className="rounded-full border border-electric-blue/40 bg-black/30 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-electric-blue">
+            Decentralized Autonomous Systems
+          </span>
+        </div>
       </div>
     </motion.section>
   )

@@ -24,8 +24,8 @@ const projects = [
     subtitle: 'More agentic experiments',
     description:
       'A pipeline of upcoming prototypes focused on multi-agent coordination, autonomous governance, and economic primitives for decentralized AI.',
-    badge: 'In Development',
-    isInDevelopment: true,
+    badge: 'Coming Soon',
+    statusLabel: 'In Research',
     url: null
   }
 ] as const
@@ -72,9 +72,9 @@ export function Projects() {
                   {project.subtitle}
                 </p>
                 <p className="leading-relaxed text-zinc-300">{project.description}</p>
-                {project.isInDevelopment ? (
+                {(project.isInDevelopment ?? project.statusLabel) ? (
                   <span className="mt-5 inline-flex rounded-md border border-zinc-600 bg-zinc-900/70 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-zinc-200">
-                    In Development
+                    {project.statusLabel ?? 'In Development'}
                   </span>
                 ) : null}
               </Card>
