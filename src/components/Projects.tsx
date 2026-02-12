@@ -5,9 +5,10 @@ const projects = [
     name: 'Hedron',
     subtitle: 'AI agent framework on Hedera',
     description:
-      'Building an autonomous agent framework for composable coordination and intelligent transactions within the Hedera ecosystem, and recognized as a recent grant winner at the Hedera Hackathon.',
+      'Autonomous agent framework SDK for composable coordination and intelligent transactions within the Hedera ecosystem, and recognized as a recent grant winner at the Hedera Africa Hackathon.',
     badge: 'Hedera Grant Recipient',
     isInDevelopment: true,
+    statusLabel: undefined,
     url: 'https://github.com/hebx/hedron'
   },
   {
@@ -17,6 +18,7 @@ const projects = [
       'A developer-first CLI experience that streamlines agent deployment, monitoring, and lifecycle workflows across Aptos-based environments.',
     badge: 'Aptos Ecosystem Builder',
     isInDevelopment: true,
+    statusLabel: undefined,
     url: 'https://github.com/Hebx/ascent-cli'
   },
   {
@@ -25,6 +27,7 @@ const projects = [
     description:
       'A pipeline of upcoming prototypes focused on multi-agent coordination, autonomous governance, and economic primitives for decentralized AI.',
     badge: 'Coming Soon',
+    isInDevelopment: true,
     statusLabel: 'In Research',
     url: null
   }
