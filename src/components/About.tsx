@@ -4,7 +4,7 @@ export function About() {
   return (
     <motion.section
       id="about"
-      className="px-6 py-20 sm:px-10"
+      className="scroll-mt-20 px-6 py-20 sm:px-10"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.25 }}

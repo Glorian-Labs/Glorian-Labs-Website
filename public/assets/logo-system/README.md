@@ -4,6 +4,8 @@
 
 - `glorian-symbol.svg` (1:1)  
   Symbol-only mark (power-button style), optimized for favicon/app icon.
+- `glorian-symbol-32.png` (32×32)  
+  Favicon fallback for legacy browsers.
 - `glorian-lockup.svg` (3:1)  
   Primary gradient lockup for dark UI.
 - `glorian-lockup-white.svg` (3:1)  
