@@ -9,7 +9,7 @@ const projects = [
     badge: 'Hedera Grant Recipient',
     isInDevelopment: true,
     statusLabel: undefined,
-    url: 'https://github.com/hebx/hedron'
+    url: 'https://github.com/glorian-labs/hedron'
   },
   {
     name: 'Ascent CLI',
@@ -19,7 +19,7 @@ const projects = [
     badge: 'Aptos Ecosystem Builder',
     isInDevelopment: true,
     statusLabel: undefined,
-    url: 'https://github.com/Hebx/ascent-cli'
+    url: 'https://github.com/glorian-labs/ascent-cli'
   },
   {
     name: 'TBA',
