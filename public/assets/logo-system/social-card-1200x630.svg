@@ -11,8 +11,6 @@
   </defs>
 
   <rect width="1200" height="630" fill="url(#bg-grad)" />
-  <circle cx="980" cy="140" r="160" fill="#00D4FF" fill-opacity="0.12" />
-  <circle cx="1060" cy="260" r="180" fill="#A78BFA" fill-opacity="0.12" />
 
   <g transform="translate(90 150)">
     <g fill="none" stroke="url(#brand-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
@@ -32,15 +30,15 @@
       GLORIAN
     </text>
     <text
-      x="224"
+      x="612"
       y="176"
-      font-family="Inter, Arial, sans-serif"
+      font-family="Orbitron, Rajdhani, Inter, Arial, sans-serif"
       font-size="72"
-      font-weight="500"
-      letter-spacing="2"
-      fill="#E5E7EB"
+      font-weight="700"
+      letter-spacing="2.4"
+      fill="url(#brand-grad)"
     >
-      Labs
+      LABS
     </text>
   </g>
 
@@ -62,14 +60,5 @@
     fill="#E5E7EB"
   >
     Building autonomous AI systems and tools for decentralized intelligence
-  </text>
-  <text
-    x="92"
-    y="548"
-    font-family="Inter, Arial, sans-serif"
-    font-size="26"
-    fill="#9CA3AF"
-  >
-    Agentic Systems
   </text>
 </svg>
