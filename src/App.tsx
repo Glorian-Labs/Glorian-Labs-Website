@@ -42,6 +42,8 @@ export default function App() {
             <img
               src="/assets/logo-system/glorian-lockup.svg"
               alt="Glorian Labs"
+              width={260}
+              height={68}
               className="h-auto w-[190px] sm:w-[230px] md:w-[260px]"
               loading="eager"
               decoding="async"

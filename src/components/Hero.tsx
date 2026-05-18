@@ -63,14 +63,23 @@ export function Hero({ onExploreProjects }: HeroProps) {
             aria-hidden="true"
             className="pointer-events-none absolute inset-0 -z-10 scale-95 rounded-full bg-[radial-gradient(circle,rgba(0,212,255,0.3)_0%,rgba(157,78,221,0.28)_42%,rgba(10,10,10,0)_76%)] opacity-30 blur-3xl"
           />
-          <img
-            src="/assets/mascot.png"
-            alt="Glorian's Agent"
-            className="h-auto w-full object-contain"
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
-          />
+          <picture>
+            <source
+              type="image/webp"
+              srcSet="/assets/mascot-512.webp 512w, /assets/mascot.webp 1024w"
+              sizes="(max-width: 640px) 280px, (max-width: 1024px) 380px, 520px"
+            />
+            <img
+              src="/assets/mascot.webp"
+              alt="Glorian's Agent"
+              width={1024}
+              height={1024}
+              className="h-auto w-full object-contain"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
         </motion.div>
       </div>
     </motion.section>
