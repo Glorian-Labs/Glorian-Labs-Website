@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <motion.section
       id="contact"
-      className="bg-brand-bg-start px-6 py-20 sm:px-10"
+      className="scroll-mt-28 bg-brand-bg-start px-6 py-20 sm:px-10"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}

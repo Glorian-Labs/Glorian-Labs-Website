@@ -4,7 +4,7 @@ export function About() {
   return (
     <motion.section
       id="about"
-      className="scroll-mt-20 px-6 py-20 sm:px-10"
+      className="scroll-mt-28 px-6 py-20 sm:px-10"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.25 }}
@@ -16,17 +16,16 @@ export function About() {
             About
           </p>
           <h2 className="font-display text-3xl font-bold text-zinc-50 sm:text-4xl lg:text-5xl">
-            Researching and Shipping the Future of Intelligent Economies
+            Researching and Shipping Verifiable Agentic Infrastructure
           </h2>
         </div>
 
         <div className="space-y-5">
           <p className="leading-relaxed text-zinc-300">
-            Glorian Labs is an independent research lab exploring the
-            intersection of AI agents and decentralized economies. We build
-            open-source prototypes and tools that enable autonomous
-            coordination, intelligent decision-making, and new economic
-            primitives in Web3 environments.
+            Glorian Labs is an independent research and engineering lab building
+            the execution layer for autonomous agents: coordination protocols,
+            verifiable workflows, and AI-native tools that can operate across
+            decentralized networks with clear proofs and real utility.
           </p>
           <div className="flex flex-wrap gap-3">
             <span className="rounded-full border border-electric-blue/40 bg-black/30 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-electric-blue">

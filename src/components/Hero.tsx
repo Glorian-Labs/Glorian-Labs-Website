@@ -28,8 +28,8 @@ export function Hero({ onExploreProjects }: HeroProps) {
           </h1>
 
           <p className="max-w-3xl text-lg leading-relaxed text-zinc-300 sm:text-xl lg:text-2xl">
-            Building the Agentic Economy — Autonomous AI Systems for
-            Decentralized Intelligence
+            Architecting agentic infrastructure where autonomous AI agents
+            coordinate, transact, and verify work across open networks.
           </p>
 
           <button
